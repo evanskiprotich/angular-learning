@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,18 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-app';
+ // pokemonName: string = "";
+
+ 
+
+  constructor(){
+
+  }
+
+  // handleClick(value: any){
+  //   console.log(value);
+  // }
+  // handleChange(event : any){
+  //   this.pokemonName = event?.target.value;
+  // }
 }
